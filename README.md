@@ -22,5 +22,11 @@ Identifying the PS4 was a challenge because it shares the same **TTL (64)** as A
 I analyzed the **TCP Window Size** to observe how different kernels manage data flow control.
 ![Window Size Analysis](screenshots/window_size.png)
 
+### 4. Windows OS Verification (TTL 128)
+During the analysis, the Windows laptop was easily distinguished by its default **TTL (128)**. This is a high-confidence indicator
+for the Windows NT kernel, as it differs significantly form the TTL 64 used by Unix-like systems (Android/PS4).
+
+
+![Windows Analysis](screenshots/windows_os_analysis.png)
 ## 🏁 Conclusion
 This project proves the ability to detect and categorize network assets without direct access, providing critical visibility for **SOC Analysts** during an incident response.
