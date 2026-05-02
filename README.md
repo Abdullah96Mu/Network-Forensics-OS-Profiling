@@ -24,5 +24,3 @@ I analyzed the **TCP Window Size** to observe how different kernels manage data 
 
 ## 🏁 Conclusion
 This project proves the ability to detect and categorize network assets without direct access, providing critical visibility for **SOC Analysts** during an incident response.
-
-اضع هذا الكود مباشرة في مجلد READM.md
